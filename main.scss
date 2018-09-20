@@ -1,0 +1,270 @@
+
+    
+//--->DESKTOP<---//
+
+body{
+    background-image:url(img/Portrait.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 100px;
+    font-family: 'Montserrat, sans-serif';
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+    .border-effect { 
+        height:15px;
+        width:20%;
+        margin-top: 2px; 
+    }
+
+      .item {
+        position: relative;  
+        overflow: hidden;
+        width: 100%;
+      }
+      
+      .item img {
+        max-width: 100%;  
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+      }
+
+    @media (max-width: 1024px) {
+        #cardsMobile {
+            display: block;
+        }
+        #cards {
+            display: none;
+        }
+    }
+
+
+    @media (min-width: 1025px) {
+        #cardsMobile {
+            display: none;
+        }
+        #cards{
+            display: block;
+        }
+    }
+
+    nav{ 
+        .nave_menu  {  
+            display: flex;
+
+            @media (max-width: 1024px) {
+                justify-content: center;
+            }
+            
+
+            @media (min-width: 1025px) {
+                justify-content: space-between;
+            }
+        
+            ul{
+                list-style-type: none;
+                display: flex;
+                //position: fixed;
+                //z-index:4;
+             
+                .menuDireito{
+                    //border-bottom: solid 1px;
+                    .link{
+                        font-size: 20px;
+                        color:white;
+                        text-decoration: none;
+                        font-family: Montserrat, sans-serif;
+                        border-right: 1px solid;
+                        background: #b365fe;
+                        padding: 15px;                       
+                        &:hover{ text-shadow: 3px 3px 1px #8816f1};
+                    }
+                }      
+            }
+    
+            .logotipo {
+                .imagemLogo {
+                    text-align: center;
+                    //margin-bottom: 10px;
+                  
+                    .img_logo{
+                        width: 168px;
+                        //margin-bottom:10px;
+    
+                    }
+                }
+               .tituloLogo {
+                    .titulo_1 {
+                        font-family: 'Dancing Script','Cookie', 'cursive';
+                        //font-family: 'Cookie', 'cursive';
+                        font-size: 70px;
+                        font-weight: 900;        
+                        color: #a861ec;
+                    }
+                    .titulo_2 {
+                        font-family: 'Dancing Script','Cookie', 'cursive';
+                        //font-family: 'Cookie', 'cursive';
+                        font-size: 80px;
+                        font-weight: 900;        
+                        color: #A52584;
+                        padding-left: 108px;
+                        position: absolute;
+                        top: 360px;
+                    }
+                    
+                }
+            }
+
+            ul {
+                list-style-type: none;
+                display: flex;
+
+                .menuEsquerdo{
+                            //border-bottom: solid 1px;
+                   
+                    .link {
+                        font-size: 20px;
+                        color:white;
+                        text-decoration: none;
+                        font-family:'cursive';
+                        font-family: Montserrat, sans-serif;
+                        border-right: 1px solid;
+                        background: #b365fe;
+                        padding: 15px;
+                        &:hover{ text-shadow: 3px 2px 0  #8816f1};                        
+                    }
+                } 
+            }   
+        }
+        
+    }
+
+
+    //cards
+
+    #cardsMobile{
+        margin-top: 120px;
+        .card col-md-6{
+            opacity: 0.5;
+            padding-left: 0px;
+            padding-right: 0px;
+
+        }
+    }
+
+    
+    
+    #carouselExampleIndicators {
+        margin-top: 120px;
+
+        /*
+        div > div.carousel-item.active > div > p {
+            //color: #A52584;
+            background-color: #A52584
+        }
+        */
+    }
+
+
+    #cards{
+        .card{
+            padding-left: 0px;
+            padding-right: 0px; 
+        }
+        margin-top: 120px;
+        
+    }
+
+
+        section .section-title {
+            text-align: center;
+            color: #A52584;
+            margin-bottom: 50px;
+            text-transform: uppercase;
+        }
+
+        footer {
+            margin-top: 150px;
+            background: #A52584 !important;
+        }
+        footer h5{
+            padding-left: 10px;
+            border-left: 3px solid #eeeeee;
+            padding-bottom: 6px;
+            margin-bottom: 20px;
+            color:#ffffff;
+        }
+
+        footer > div > div.row.text-center.text-xs-center.text-sm-left.text-md-left > div > ul > li > a:hover {
+            color: #8816f1;
+        }
+
+        footer > div > div.row.text-center.text-xs-center.text-sm-left.text-md-left > div > ul > li > a {
+            color: #ffffff;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none !important;
+            background-color: transparent;
+            -webkit-text-decoration-skip: objects;
+        }
+
+        footer ul.social li{
+            padding: 3px 0;
+        }
+
+        footer ul.social li a i {
+            margin-right: 5px;
+            font-size:25px;
+            -webkit-transition: .5s all ease;
+            -moz-transition: .5s all ease;
+            transition: .5s all ease;
+        }
+
+        footer ul.social li:hover a i {
+            font-size:30px;
+            margin-top:-10px;
+        }
+
+        footer ul.social li a,
+        footer ul.quick-links li a{
+            color:#ffffff;
+        }
+        footer ul.social li a:hover{
+            color:#eeeeee;
+        }
+
+        footer ul.quick-links li{
+            padding: 3px 0;
+            -webkit-transition: .5s all ease;
+            -moz-transition: .5s all ease;
+            transition: .5s all ease;
+        }
+
+        footer ul.quick-links li:hover{
+            padding: 3px 0;
+            margin-left:5px;
+            font-weight:700;
+        }
+
+        footer ul.quick-links li a i{
+            margin-right: 5px;
+        }
+
+        footer ul.quick-links li:hover a i {
+            font-weight: 700;
+        }
+
+        @media (max-width:767px){
+            #footer h5 {
+            padding-left: 0;
+            border-left: transparent;
+            padding-bottom: 0px;
+            margin-bottom: 10px;
+        }
+
+}

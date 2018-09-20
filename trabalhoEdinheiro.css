@@ -1,0 +1,55 @@
+body {
+  text-align: justify;
+}
+
+body #trabalhoEdinheiro {
+  padding-top: 120px;
+}
+
+body #trabalhoEdinheiro h4 {
+  margin-bottom: 4%;
+}
+
+body #trabalhoEdinheiro h2 {
+  color: #a861ec;
+}
+
+body #trabalhoEdinheiro p {
+  font-size: 15px;
+  color: #615b56;
+}
+
+body #trabalhoEdinheiro .linkReprograma {
+  text-decoration: none;
+  color: #212529;
+}
+
+body #trabalhoEdinheiro .autora {
+  margin-bottom: 7%;
+}
+
+body #trabalhoEdinheiro .conteudo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #trabalhoEdinheiro .conteudo .texto_trabalho {
+  padding-left: 0;
+}
+
+body .entrevista {
+  font-size: 15px;
+  color: #615b56;
+}
+
+body .container {
+  padding: 25px;
+}
+/*# sourceMappingURL=trabalhoEdinheiro.css.map */

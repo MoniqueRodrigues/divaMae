@@ -1,0 +1,23 @@
+#belezaEsaude {
+  padding: 120px;
+  padding-left: 0;
+  text-align: justify;
+  color: #615b56;
+  font-size: 15px;
+}
+
+#belezaEsaude h4 {
+  margin-bottom: 4%;
+  padding-top: 154px;
+  color: black;
+}
+
+#belezaEsaude h2 {
+  font-size: 2rem;
+  color: #a861ec;
+}
+
+#belezaEsaude .conteudo {
+  margin-top: 70px;
+}
+/*# sourceMappingURL=belezaEsaude.css.map */

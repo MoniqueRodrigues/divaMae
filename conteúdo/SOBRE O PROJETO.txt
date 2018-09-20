@@ -1,0 +1,143 @@
+
+
+SOBRE O TRABALHO DE CONCLUSÃO DE CURSO:
+
+
+*Tempo disponível: última semana,
+
+*mínimo de entrega: landpage com 4 sessões ou quatro páginas,
+
+*NA APRESENTAÇÃO:
+Mostrar daonde surgiu a ideia.
+estrutura e como foi aplicado.
+*haverá comentários no código.
+
+
+
+*entregar publicado no git hub-  
+
+*entregar até 22.06 até 12h apresentar a tarde.
+
+*data da formatura-26/06 na estação hack.
+
+
+Se sustenta como projeto:
+
+*ENTENDIMENTO DE 1 SEMANA EXECUTADA(Para Carla)
+*IMPACTO SOCIAL;(Para Mariel )
+QUEM SOU EU DENTRO DO CURSO?
+
+
+
+
+
+
+Meu objetivo é mostrar a minha essência,
+Gostaria de apresentar algo sobre auto conhecimento, motivaçao
+Maes de apoiando, trocando ideias, trocando experiencias,
+
+
+
+SITES INPIRADORES:
+
+
+http://lugardemulher.com.br/category/maneiras/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// body{
+
+//     background-color: rgb(250, 219, 219);
+//     margin: 0px;
+//     padding: 0px;
+// }
+
+// .navegacao{
+//     display: flex;
+//     //justify-content: center;
+//     background-color: #6b2f3b;
+//     //position: fixed;
+//     //box-shadow: 0px 5px 5px 0px rgba(218, 12, 12, 0.3);
+//     //margin-top: 10px;
+
+
+
+//     .logo_nav{
+//         height: 87px;
+//         // padding-left: 40px;
+                
+//     } 
+//     ul{
+//         display: flex;            
+//         margin-right: 17%;
+//         padding-top: 10px;
+//         #ul_link{
+//             display: flex;
+//             list-style-type: none;
+//             margin-left: 35%;                
+//             font-size: 35px;
+//             font-family: 'Pacifico', cursive;
+//             font-family: 'Dancing Script', cursive;
+//             font-weight: lighter;
+    
+//         li {
+//             a.link{
+//                 display: flex;
+//                 list-style-type: none;
+//                 margin-left: 320px;
+//                 //border:3px outset #ffff;
+//                 margin-left: 40px;
+//                 color: white;
+//                 text-decoration: none;
+                
+                
+                
+//             }
+//         }        
+//         } 
+//         #ul_redes{
+//             list-style-type: none;
+//             margin-left: 70%;
+//             display: flex;
+//             // li{
+//             //     .img_redes{
+
+//             //     }
+//             // }
+//         }
+                    
+    
+//     }
+
+// }
+
+// @media (max-width: 420px) {
+    
+// }
+                
+            
+      
+                          
+
+
+offset left- posição do container em relação ao pai dele.
+
+          
+
+           
+                  
+
+
